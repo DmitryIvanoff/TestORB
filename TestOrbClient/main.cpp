@@ -44,11 +44,9 @@ main (int argc, char **argv)
     Echo_var echoref = Echo::_narrow(obj);
 
     char ch;
-    for (int i=40;i<50;++i)
+    for (;cin.get(ch);)
     {
-       //CORBA::Char cch=ch;
-        echoref->echoChar(ch);
-       //cout.flush();
+        echoref->echoChar((CORBA::Char)ch);
     }
 
 
