@@ -47,7 +47,7 @@ main (int argc, char **argv)
     for (int i=40;i<50;++i)
     {
        //CORBA::Char cch=ch;
-        echoref->echoChar((ch);
+        echoref->echoChar(ch);
        //cout.flush();
     }
 
