@@ -21,6 +21,7 @@
 
 #include <echo.hh>
 
+
 #ifdef HAVE_STD
 #  include <iostream>
    using namespace std;
@@ -32,6 +33,8 @@ static CORBA::Object_ptr getObjectReference(CORBA::ORB_ptr orb);
 
 
 //////////////////////////////////////////////////////////////////////
+
+
 
 int
 main (int argc, char **argv)
